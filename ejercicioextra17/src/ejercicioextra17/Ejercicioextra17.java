@@ -34,11 +34,7 @@ public class Ejercicioextra17 {
                 cont++;
             }
         }
-        if (cont == 2) {
-            return true;
-        } else {
-            return false;
-        }
+        return cont == 2;
     }
 
 }
